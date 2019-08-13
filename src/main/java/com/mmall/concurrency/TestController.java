@@ -15,11 +15,4 @@ public class TestController {
         return "test";
     }
 
-
-    @ResponseBody  @RequestMapping("/add")
-    public String add() {
-        return "add";
-    }
-
-
 }
